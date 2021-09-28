@@ -5,8 +5,8 @@
 
 # Auto generated from Toptal's https://gitignore.io/
 
-# Created by https://www.toptal.com/developers/gitignore/api/android,AndroidStudio,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
-# Edit at https://www.toptal.com/developers/gitignore?templates=android,AndroidStudio,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
+# Created by https://www.toptal.com/developers/gitignore/api/android,AndroidStudio,CocoaPods,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,AndroidStudio,CocoaPods,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
 
 ### Android ###
 # Built application files
@@ -105,6 +105,14 @@ output.json
 
 # Replacement of .externalNativeBuild directories introduced
 # with Android Studio 3.5.
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
 
 ### dotenv ###
 .env
@@ -1096,7 +1104,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/android,AndroidStudio,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
+# End of https://www.toptal.com/developers/gitignore/api/android,AndroidStudio,CocoaPods,dotenv,firebase,linux,macos,node,notepadpp,react,ReactNative,vim,visualstudio,visualstudiocode,windows,xcode,yarn,zsh
 
 # Custom Rules
 
@@ -1104,12 +1112,24 @@ FodyWeavers.xsd
 .env*
 !.env*.example
 
-# Vercel
-.vercel
-
 # Prettier
 **prettier*
+
+# Expo
+web-build/
+
+# Bundle artifacts
+*.jsbundle
 
 # MacOS Icon - Workarounds
 Icon?
 Icon
+
+# Xcode
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# CocoaPods
+/ios/Pods/

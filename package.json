@@ -1,0 +1,47 @@
+{
+	"name": "numbender",
+	"version": "0.0.0.0",
+	"description": "Numbender - A Calculator that Bends Numbers",
+	"scripts": {
+		"gitignore": "node util/gitignore.js",
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web",
+		"eject": "expo eject"
+	},
+	"author": "Leif-W",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Leif-W/Numbender.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Leif-W/Numbender/issues"
+	},
+	"homepage": "https://github.com/Leif-W/Numbender#readme",
+	"private": true,
+	"devDependencies": {
+		"@babel/core": "^7.9.0"
+	},
+	"dependencies": {
+		"expo": "~42.0.0",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+		"react-native-web": "~0.13.12"
+	},
+	"keywords": [
+		"Numbender",
+		"Calculator",
+		"mobile",
+		"app",
+		"Node.js",
+		"React",
+		"Redux",
+		"ReactNative",
+		"Expo",
+		"Android",
+		"iOS"
+	]
+}
